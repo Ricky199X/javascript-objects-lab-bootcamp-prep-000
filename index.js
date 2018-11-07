@@ -11,5 +11,5 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  return Object.assign({}, recipes, { [side]: oatmeal })
+  return Object.assign({}, object, { [side]: oatmeal })
 }
